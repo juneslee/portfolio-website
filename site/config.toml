@@ -1,0 +1,152 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Portfolio by June Lee"
+theme = "hugo-strata-theme"
+disqusShortname = ""
+# Enable Google Analytics by inserting your tracking code
+googleAnalytics = ""
+# Define how many posts should appear on a site
+paginate = 10
+
+[params]
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "June Lee"
+	description = "technical writing portfolio"
+
+	# Format dates with Go's time formatting
+	date_format = "2006-01-02"
+
+	# Add read time estimates in the format "X min read"
+	show_read_time = false
+
+	# Add custom assets with their paths relative to the static folder
+	custom_js   = []
+	custom_css  = []
+
+
+	[params.sidebar]
+		# Replace the avatar with a picture of your own under static/images
+		avatar = "jl-profile.jpg"
+		# Use Markdown to format the string. This works nearly all over the theme
+		bio = "June Lee, Technical Writer"
+		# The icons will be shown if you enter your username
+		twitter = ""
+		github = "juneslee"
+		gitlab = "juneslee"
+		dribbble = ""
+		facebook = ""
+		googleplus = ""
+		flickr = ""
+		linkedin = "june-s-lee"
+
+		copyright = [
+			"&copy; June Lee",
+			"Design: [HTML5 UP](//html5up.net)",
+			"Demo Images: [Unsplash](//unsplash.com/)"
+		]
+
+
+	[params.about]
+		hide  = false
+		title = "My Portfolio"
+		content = "I'm deeply immersed in the craft of writing and I've made it my career. I showcase my versatility through this portfolio site, comprised of content that I researched, wrote, and formatted."
+
+
+	[params.portfolio]
+		hide  = false
+		title = "Writing Samples"
+
+		# The images and thumbnails are stored under static/images
+		# Create and change subfolders as you like
+		[[params.portfolio.gallery]]
+			#image = ""
+			#thumb = ""
+			title = "[Quick Start Guide](/writing-samples/uwb-xg-qsg.pdf)"
+			description = "Requirements, installation, and compliance"
+
+		[[params.portfolio.gallery]]
+			#image = ""
+			#thumb = ""
+			title = "[Datasheet](/writing-samples/uap-beaconhd-ds.pdf)"
+			description = "Product features, applications, and specifications"
+
+		[[params.portfolio.gallery]]
+			#image = ""
+			#thumb = ""
+			title = "[User Guide](/writing-samples/edgeos-ug.pdf)"
+			description = "Reference for UI configuration and basic CLI commands"
+
+		[[params.portfolio.gallery]]
+			#image = ""
+			#thumb = ""
+			title = "[Technology Paper](/writing-samples/airfiber-antenna-tech-ds.pdf)"
+			description = "Explanation of innovative product technologies"
+
+		[[params.portfolio.gallery]]
+			#image = ""
+			#thumb = ""
+			title = "[Case Study](/writing-samples/bandimere-speedway-cs.pdf)"
+			description = "Application for products and management software"
+
+		[[params.portfolio.gallery]]
+			#image = ""
+			#thumb = ""
+			title = "[Product Sheet](/writing-samples/unifi-ac-comparison-sheet.pdf)"
+			description = "Comparison of product models for tradeshow"
+
+	[params.recentposts]
+		hide  = true
+		title = "Recent blog posts"
+
+	[params.contact]
+		hide  = true
+		title = "Get In Touch"
+		content = "Please feel free to email me using the contact form:"
+
+		# This can be exact coordinates or a searchable address in google maps
+		# gmaps_address = "39.7889055,-120.5443524"
+		# address = [
+		#	"1234 Somewhere Rd.",
+		#	"Nashville, TN 00000",
+		#	"United States"
+		#]
+		# phone = "000-000-0000"
+
+		# Since this template is static, the contact form uses www.formspree.io as a
+		# proxy. The form makes a POST request to their servers to send the actual
+		# email. Visitors can send up to a 1000 emails each month for free.
+	    #
+	    # What you need to do for the setup?
+	    #
+	    # - set your email address under 'email' below
+	    # - upload the generated site to your server
+	    # - send a dummy email yourself to confirm your account
+	    # - click the confirm link in the email from www.formspree.io
+	    # - you're done. Happy mailing!
+		#email = "june.s.lee.cal@gmail.com"
+
+		#[params.contact.form]
+			# Set custom strings for the form if your native
+			# language isn't English
+		#	name = "Name"
+		#	email = "Email"
+		#	message = "Message"
+		#	submit = "Send message"
+
+
+# Menu links that appear on the left sidebar
+#[[menu.main]]
+	#name = "Home"
+	#url  = "/"
+	#weight = 10
+
+#[[menu.main]]
+	#name = "About"
+	#url  = "about"
+	#weight = 5
+
+#[[menu.main]]
+	#name = "Blog"
+	#url  = "post/"
+	#weight = 0
