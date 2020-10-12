@@ -60,38 +60,38 @@ paginate = 10
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
 		[[params.portfolio.gallery]]
-			#image = ""
-			#thumb = ""
+			#image = "uwb-xg-qsg.jpg"
+			#thumb = "uwb-xg-qsg-thumbnail.jpg"
 			title = "[Quick Start Guide](/writing-samples/uwb-xg-qsg.pdf)"
 			description = "Requirements, installation, and compliance"
 
 		[[params.portfolio.gallery]]
-			#image = ""
-			#thumb = ""
+			#image = "uap-beaconhd-ds.jpg"
+			#thumb = "uap-beaconhd-ds-thumbnail.jpg"
 			title = "[Datasheet](/writing-samples/uap-beaconhd-ds.pdf)"
 			description = "Product features, applications, and specifications"
 
 		[[params.portfolio.gallery]]
-			#image = ""
-			#thumb = ""
+			#image = "edgeos-ug.jpg"
+			#thumb = "edgeos-ug-thumbnail.jpg"
 			title = "[User Guide](/writing-samples/edgeos-ug.pdf)"
 			description = "Reference for UI configuration and basic CLI commands"
 
 		[[params.portfolio.gallery]]
-			#image = ""
-			#thumb = ""
+			#image = "airfiber-antenna-tech-ds.jpg"
+			#thumb = "airfiber-antenna-tech-ds-thumbnail.jpg"
 			title = "[Technology Paper](/writing-samples/airfiber-antenna-tech-ds.pdf)"
 			description = "Explanation of innovative product technologies"
 
 		[[params.portfolio.gallery]]
-			#image = ""
-			#thumb = ""
+			#image = "bandimere-speedway-cs.jpg"
+			#thumb = "bandimere-speedway-cs-thumbnail.jpg"
 			title = "[Case Study](/writing-samples/bandimere-speedway-cs.pdf)"
 			description = "Application for products and management software"
 
 		[[params.portfolio.gallery]]
-			#image = ""
-			#thumb = ""
+			#image = "unifi-ac-comparison-sheet.jpg"
+			#thumb = "unifi-ac-comparison-sheet-thumbnail.jpg"
 			title = "[Product Sheet](/writing-samples/unifi-ac-comparison-sheet.pdf)"
 			description = "Comparison of product models for tradeshow"
 
